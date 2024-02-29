@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   
+    <form action="" class="form" onsubmit="return validateform()">
+        <h1 class="heading">Welcome to Sign Up Form</h1>
+        <div class="formdesign" id="name">
+            <label>
+                Name
+            </label>
+            <input type="text" name="fname" class="name"/>
+            <span class="formerror"><b></b></span>
+        </div>
+
+        <div class="formdesign" id="email">
+            <label>
+                Email
+            </label>
+            <input type="text" name="femail" class="email" />
+            <span class="formerror"><b></b></span>
+        </div>
+
+        <div class="formdesign" id="passward">
+            <label>
+                Passward
+            </label>
+            <input type="text" name="fpassward" class="passward" />
+            <span class="formerror"><b></b></span>
+        </div>
+
+        <div class="formdesign" id="phone#">
+            <label>
+                Phone
+            </label>
+            <input type="text" name="fname" class="pho"/>
+            <span class="formerror"><b></b></span>
+        </div>
+
+        <div class="formdesign" id="pass2">
+            <label>
+                Confirm Passward
+            </label>
+            <input type="text" name="fname" class="pass2"/>
+            <span class="formerror"><b></b></span>
+        </div>
+
+        <label >Gender</label>
+        <br>
+        <br>
+        <input type="radio" class="gender" name="gend" required/> Male
+        <input type="radio" class="gender" name="gend"/>Female
+        <br>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
